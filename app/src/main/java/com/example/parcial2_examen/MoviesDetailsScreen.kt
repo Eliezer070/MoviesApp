@@ -21,7 +21,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun MoviesDetails(modifier: Modifier) {
+fun MoviesDetails() {
         var checked by remember { mutableStateOf(false) }
 
         Row(verticalAlignment = Alignment.CenterVertically,
